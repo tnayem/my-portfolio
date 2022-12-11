@@ -9,6 +9,7 @@ import Contact from './Routs/Contact/Contact';
 import HelloDotCom from './Components/MyProject/HelloDotCom/HelloDotCom';
 import DentalSurgeon from './Components/MyProject/DentalSurgeon/DentalSurgeon';
 import DreamIt from './Components/MyProject/DreamIt/DreamIt';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   const router = createBrowserRouter([
@@ -51,6 +52,10 @@ function App() {
         {
           path:'/dreamIt',
           element:<DreamIt></DreamIt>
+        },
+        {
+          path:'/blog',
+          element:<Blog></Blog>
         }
       ]
     }

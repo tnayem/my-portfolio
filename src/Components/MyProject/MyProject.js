@@ -12,7 +12,7 @@ const MyProject = () => {
                         <h2 className="card-title">Hello Dot Com</h2>
                         <p>Mobile Buy and Sell MarketPlace</p>
                         <div className="card-actions justify-end">
-                            <a className='btn btn-info text-white' href="https://hello-dot.web.app/" target='_blank'>Live Preview</a>
+                            <a className='btn btn-info text-white' href="/helloDotCom">Details</a>
                         </div>
                     </div>
                 </div>
@@ -22,7 +22,7 @@ const MyProject = () => {
                         <h2 className="card-title">Dental Surgeon</h2>
                         <p>Independent Service Provider</p>
                         <div className="card-actions justify-end">
-                            <a className='btn btn-info text-white' href="https://dental-surgeon-ca9a1.web.app/" target='_blank'>Live Preview</a>
+                            <a className='btn btn-info text-white' href="/DentalSurgeon">Details</a>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const MyProject = () => {
                         <h2 className="card-title">Dream It.</h2>
                         <p>Learning platform.</p>
                         <div className="card-actions justify-end">
-                            <a className='btn btn-info text-white' href=" https://dream-it-e8c39.web.app/" target='_blank'>Live Preview</a>
+                            <a className='btn btn-info text-white' href="/dreamIt">Details</a>
                         </div>
                     </div>
                 </div>

@@ -6,6 +6,9 @@ import Home from './Routs/Home/Home';
 import About from './Routs/About/About';
 import Project from './Routs/Project/Project';
 import Contact from './Routs/Contact/Contact';
+import HelloDotCom from './Components/MyProject/HelloDotCom/HelloDotCom';
+import DentalSurgeon from './Components/MyProject/DentalSurgeon/DentalSurgeon';
+import DreamIt from './Components/MyProject/DreamIt/DreamIt';
 
 function App() {
   const router = createBrowserRouter([
@@ -37,6 +40,18 @@ function App() {
           path:'/about',
           element:<About></About>
         },
+        {
+          path:'/helloDotCom',
+          element:<HelloDotCom></HelloDotCom>
+        },
+        {
+          path:'/DentalSurgeon',
+          element:<DentalSurgeon></DentalSurgeon>
+        },
+        {
+          path:'/dreamIt',
+          element:<DreamIt></DreamIt>
+        }
       ]
     }
   ])
